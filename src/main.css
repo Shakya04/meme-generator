@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+nav{
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    width: 100%;
+}
+
+.nav-logo{
+    margin-left: 50px;
+}
+
+.nav-topic{
+    margin-right: 50px;
+    color: aliceblue;
+    font-size: 12px;
+}
+
+.form-div{
+    padding: 36px;
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+}
+
+input{
+    border : 1px solid #D5D4D8;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    text-indent: 5px;
+}
+button{
+    grid-column: 1 / -1;
+    font-family: 'Poppins';
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.meme{
+    position: absolute;
+}
+
+.meme-img{
+        max-width: 100%;
+        border-radius: 3px;
+}
+
+.meme-text{
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bot {
+    bottom: 0;
+}
+
+.top {
+    top: 0;
+}
